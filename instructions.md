@@ -16,11 +16,7 @@ Nothing. This issue is meant to welcome you to Open Source :) We are happy to wa
 
 ### 📋 Step by Step
 
-- [ ] 🙋 **Claim this issue**: Comment below.
-
-  Once claimed we add you as contributor to this repository.
-
-- [ ] 👌 **Accept our invitation** to this repository. Once accepted, assign yourself to this issue
+- [ ] 🙋 **Claim this issue**: Comment below. If someone else has claimed it, ask if they've opened a pull request already and if they're stuck -- maybe you can help them solve a problem or move it along!
 
 - [ ] 📝 **Update** the file [$FILENAME]($BRANCH_URL) in the `$REPO` repository (press the little pen Icon) and edit the line as shown below.
 
