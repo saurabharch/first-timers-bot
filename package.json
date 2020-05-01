@@ -8,11 +8,14 @@
     "start": "probot run ./server.js",
     "pretest": "standard",
     "test": "tap --coverage 'test/{integration,unit}/*-test.js'",
-    "coverage": "tap --coverage-report=text-lcov | coveralls"
+    "coverage": "tap --coverage-report=text-lcov | coveralls",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "debug": "^3.0.1",
-    "probot": "^3.0.0"
+    "probot": "^3.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
@@ -41,5 +44,6 @@
       "PRIVATE_KEY": "@private-key",
       "WEBHOOK_SECRET": "@webhook-secret"
     }
-  }
+  },
+  "snyk": true
 }
